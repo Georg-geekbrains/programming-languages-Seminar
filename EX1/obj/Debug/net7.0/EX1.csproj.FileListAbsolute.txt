@@ -1,0 +1,15 @@
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/bin/Debug/net7.0/EX1
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/bin/Debug/net7.0/EX1.deps.json
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/bin/Debug/net7.0/EX1.runtimeconfig.json
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/bin/Debug/net7.0/EX1.dll
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/bin/Debug/net7.0/EX1.pdb
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/obj/Debug/net7.0/EX1.csproj.AssemblyReference.cache
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/obj/Debug/net7.0/EX1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/obj/Debug/net7.0/EX1.AssemblyInfoInputs.cache
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/obj/Debug/net7.0/EX1.AssemblyInfo.cs
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/obj/Debug/net7.0/EX1.csproj.CoreCompileInputs.cache
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/obj/Debug/net7.0/EX1.dll
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/obj/Debug/net7.0/refint/EX1.dll
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/obj/Debug/net7.0/EX1.pdb
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/obj/Debug/net7.0/EX1.genruntimeconfig.cache
+/Users/georg/Desktop/GeekBrains/C#/HomeWork1/Example/EX1/obj/Debug/net7.0/ref/EX1.dll
