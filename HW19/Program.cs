@@ -27,17 +27,11 @@ int secondNumberRight = num % 100 / 10;
 
 if(firstNumberLeft == firstNumberRight && secondNumberLeft == secondNumberRight) 
 {
-        Console.WriteLine($"{firstNumberLeft}");
-        Console.WriteLine($"{secondNumberLeft}");
-        Console.WriteLine($"{firstNumberRight}");
-        Console.WriteLine($"{secondNumberRight}");
+        
         Console.WriteLine($"Число {num} -> палиндром");   
 }
     else
     {
-        Console.WriteLine($"{firstNumberLeft}");
-        Console.WriteLine($"{secondNumberLeft}");
-        Console.WriteLine($"{firstNumberRight}");
-        Console.WriteLine($"{secondNumberRight}");
+        
         Console.WriteLine($"Число {num} -> не палиндром");
     }
