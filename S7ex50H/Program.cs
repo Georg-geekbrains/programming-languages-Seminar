@@ -7,19 +7,28 @@
 17 -> такого числа в массиве нет*/
 
 Console.Clear();
-Console.Write("Введите номер строки; ", "Ошибка ввода");
-int userRow = int.Parse(Console.ReadLine() ?? "");
-Console.Write("Введите номер столбца; ", "Ошибка ввода");
-int userCol = int.Parse(Console.ReadLine() ?? "");
+int userRow = GetNumberFromUser("Введите номер строки: ", "Ошибка ввода");
+int userCol = GetNumberFromUser("Введите номер столбца: ", "Ошибка ввода");
+
 
 int[,] array = GetArray(7, 8, 1, 9);
 bool resCheck = Check(userRow, userCol, array);
 
 PrintArray(array);
-Console.WriteLine($"  {(resCheck ? array[userRow - 1, userCol - 1] : "Нет числа на данной позйции")}");
+Console.WriteLine($"  {(resCheck ? array[userRow - 1, userCol - 1] : "Нет числа на данной позиции")}");
 
 
-
+int GetNumberFromUser(string message, string errorMessage)
+{
+    while (true)
+    {
+        Console.Write(message);
+        bool isCorrect = int.TryParse(Console.ReadLine(), out int userNumber);
+        if (isCorrect)
+            return userNumber;
+        Console.WriteLine(errorMessage);
+    }
+}
 int[,] GetArray(int row, int col, int minValue, int maxValue)
 {
     int[,] res = new int[row, col];
@@ -33,7 +42,6 @@ int[,] GetArray(int row, int col, int minValue, int maxValue)
     }
     return res;
 }
-
 bool Check(int userRow, int userCol, int[,] array)
 {
     if (userRow < array.GetLength(0) && userCol < array.GetLength(1))
@@ -42,7 +50,6 @@ bool Check(int userRow, int userCol, int[,] array)
     }
     return false;
 }
-
 void PrintArray(int[,] inArray)
 {
     for (int i = 0; i < inArray.GetLength(0); i++)
